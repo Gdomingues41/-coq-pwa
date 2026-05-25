@@ -102,7 +102,7 @@ function setCategoria(cat){
   $('identificacaoHint').textContent = hints[cat] || '';
   atualizarDestaqueCampos();
 }
-}
+
 
 function v(id){return $(id).value.trim();}
 function somenteDigitos(txt){return String(txt||'').replace(/\D/g,'');}
